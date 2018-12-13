@@ -1,0 +1,21 @@
+﻿You could run unit tests against your code to ensure it is returning expected values. A unit test is a simple test that checks that a piece of code returns
+a value as expected. Unit tests are generally small and test single methods without looking at the crossover between classes and methods.
+
+After your unit tests have succeeded you could run some integration tests. An integration test would test the crossover between two classes and ensure
+your code works together effectivley. 
+
+You could also have some acceptance tests - which are written from the user's point of view and not from a code point of view. They descripe what a system
+should visibly do and not how the code behind works. 
+
+Once you know everything works you could potentially run load tests to see how the system performs under load and if it is still responsive.
+
+There is also UI testing where you have a system automatically fill in information in the browser and test the web interface automatically, however
+since this system is simply an API this is not necessary.
+
+Some testing frameworks you could use include:
+
+xUnit (Unit tests)
+MSTest (Unit tests)
+AngleSharp (Integration tests)
+NSpec (Acceptance tests)
+Azure DevOps Tools (Load testing)
