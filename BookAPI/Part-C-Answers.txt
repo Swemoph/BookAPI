@@ -2,7 +2,7 @@
 
 After your unit tests have succeeded you could run some integration tests. An integration test would test the crossover between two classes and ensure your code works together effectively. 
 
-You could also have some acceptance tests - which are written from the user's point of view and not from a code point of view. They describe what a system should visibly do and not how the code behind works. 
+You could also have some acceptance tests. Acceptance tests are written from the user's point of view and not from a code point of view. They describe what a system should visibly do and not how the code behind works. 
 
 Once you know everything works you could potentially run load tests to see how the system performs under load and if it is still responsive.
 
